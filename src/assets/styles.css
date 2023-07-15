@@ -1,0 +1,22 @@
+.iw1 {
+    width: 100px;
+}
+
+.iw2 {
+    width: 200px;
+}
+
+
+
+.a_href {
+    text-decoration: none;
+    color: #409EFF;
+}
+
+.flex_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

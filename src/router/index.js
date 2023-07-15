@@ -8,17 +8,17 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home,
+    // meta: { requiresAuth: true }, // 这个路由需要认证
   },
   {
     path: '/login',
     name: 'Login',
     component: Login,
-    meta: { requiresAuth: true }, // 这个路由需要认证
   },
 ];
 
 const router = createRouter({
-  history: createWebHashHistory(process.env.BASE_URL),
+  history: createWebHashHistory(),
   routes,
 });
 
