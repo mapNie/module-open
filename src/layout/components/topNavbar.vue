@@ -1,16 +1,16 @@
 <template>
   <div class="content">
-    <layout />
+    1111
   </div>
 </template>
 
 <script setup>
-import layout from './layout/index.vue'
+
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .content {
-  width: 100%;
-  height: 100%;
+  height: 70px;
+  background-color: #565c63;
 }
 </style>
